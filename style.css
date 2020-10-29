@@ -1,0 +1,46 @@
+body{
+    margin:0px;
+    padding:0px;
+    min-height:100vh;
+    font-family: "consolas";
+    background:black;
+}
+p{
+    position:relative;
+    display:inline-block;
+    text-transform:uppercase;
+    font-size:24px;
+    cursor: default;
+    color:white;
+    transition:all 1s;
+    text-shadow: 0px 0px 15px blue;
+}
+p:hover{
+    color:orangered;
+    text-shadow: 0px 0px 30px aquamarine;
+}
+#game-window {
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    min-height:100vh;
+    flex-wrap:wrap;
+}
+input[type="button"]{
+    background-color:rgba(15,15,15,0.6);
+    border:none;
+    outline:none;
+    border-radius:8px;
+    padding:4px 16px;
+    color:white;
+    transition:all 1000ms;
+    cursor:pointer;
+}
+input[type="button"]:hover{
+    color:orangered;
+    text-shadow: 0px 0px 5px aquamarine;
+}
+.line-break {
+    width: 100%;
+}
