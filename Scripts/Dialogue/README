@@ -1,0 +1,7 @@
+This file is meant to contain all dialogue script files, the only one in here at the moment (introduction.diascript) is meant to be a baseline to develop the javascript compiler in.
+I plan to compile them to valid javascript files so that they can be added to the index.html file in the root directory of this project. Then they can be kept and used as Javascript objects.
+I have decided to try and make, effectively, a very rudimentary scripting language for this both because I think it might be fun and because, if it works, I'll be able to make dialogue scripts
+for this game very easily. It could also lead to the development of related but separate scripting languages (although they can't really be called that) for quests, trading, and such, rather
+than just dialogue.
+Who knows.
+This file was written by Finn Robinson on 29/10/2020. I hope this finds you well.
